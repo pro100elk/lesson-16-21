@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="vmn.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>CSS Урок 17</title>
+</head>
+
+<!-- БЭМ структура сайта https://aroken.ru -->
+
+<body>
+  <div class="header">
+    <div class="header__image"></div>
+    <div class="header_link"></div>
+    <div class="header_link"></div>
+    <div class="header_link"></div>
+    <div class="header_link"></div>
+    <div class="sub">
+      <div class="sub__button"></div>
+      <div class="sub__button"></div>
+      <div class="sub__button"></div>
+    </div>
+  </div>
+  <div class="base">
+    <div class="base__image-phone"></div>
+    <div class="base__image-flex"></div>
+    <div class="base__description">
+      <div class="base__image-smile"></div>
+      <div class="base__text--white"></div>
+      <div class="base__text--blue"></div>
+      <div class="base__button"></div>
+    </div>
+  </div>
+  <div class="who">
+    <div class="who__header"></div>
+    <div class="who__st">
+      <div class="who__image"></div>
+      <div class="who__text"></div>
+    </div>
+    <div class="who__st">
+      <div class="who__image"></div>
+      <div class="who__text"></div>
+    </div>
+    <div class="who__st">
+      <div class="who__image"></div>
+      <div class="who__text"></div>
+    </div>
+  </div>
+  <div class="statistics">
+    <div class="statistics__image"></div>
+    <div class="statistics__button"></div>
+  </div>
+  <div class="how">
+    <div class="how__video"></div>
+    <div class="how__text">
+      <div class="how__text-header"></div>
+      <div class="how__text--big"></div>
+      <div class="how__text--small"></div>
+    </div>
+  </div>
+  <div class="attention">
+    <div class="attention__image"></div>
+    <div class="attention__header"></div>
+    <div class="attention__main"></div>
+    <div class="attention__text">
+      <div class="attention__point">
+        <div class="attention__point-mark"></div>
+        <div class="attention__point-header"></div>
+        <div class="attention__point-text"></div>
+      </div>
+      <div class="attention__point">
+        <div class="attention__point-mark"></div>
+        <div class="attention__point-header"></div>
+        <div class="attention__point-text"></div>
+      </div>
+      <div class="attention__point">
+        <div class="attention__point-mark"></div>
+        <div class="attention__point-header"></div>
+        <div class="attention__point-text"></div>
+      </div>
+      <div class="attention__point">
+        <div class="attention__point-mark"></div>
+        <div class="attention__point-header"></div>
+        <div class="attention__point-text"></div>
+      </div>
+    </div>
+  </div>
+  <div class="fear">
+    <div class="fear__video"></div>
+    <div class="fear__text">
+      <div class="fear__text-header"></div>
+      <div class="fear__text--big"></div>
+      <div class="fear__text--small"></div>
+      <div class="fear__text--link"></div>
+    </div>
+  </div>
+  <div class="fb">
+    <div class="fb__text"></div>
+    <div class="fb__header">
+      <div class="fb__header-text"></div>
+      <div class="fb__header-button"></div>
+      <div class="fb__header-button"></div>
+    </div>
+    <div class="fb__image"></div>
+    <div class="fb__image"></div>
+    <div class="fb__image"></div>
+    <div class="fb__image"></div>
+    <div class="fb__image"></div>
+    <div class="fb_button">
+      <div class="fb__button-fb"></div>
+      <div class="fb__button-question"></div>
+    </div>
+  </div>
+  <div class="stat">
+    <div class="stat__header"></div>
+    <div class="stat__main"></div>
+    <div class="stat__point">
+      <div class="stat__point-text">
+        <div class="stat__point-text--big"></div>
+        <div class="stat__point-text--small"></div>
+      </div>
+      <div class="stat__point-image"></div>
+    </div>
+    <div class="stat__point">
+      <div class="stat__point-text">
+        <div class="stat__point-text--big"></div>
+        <div class="stat__point-text--small"></div>
+      </div>
+      <div class="stat__point-image"></div>
+    </div>
+    <div class="stat__point">
+      <div class="stat__point-text">
+        <div class="stat__point-text--big"></div>
+        <div class="stat__point-text--small"></div>
+      </div>
+      <div class="stat__point-image"></div>
+    </div>
+    <div class="stat__point">
+      <div class="stat__point-text">
+        <div class="stat__point-text--big"></div>
+        <div class="stat__point-text--small"></div>
+      </div>
+      <div class="stat__point-image"></div>
+    </div>
+  </div>
+  <div class="what">
+    <div class="what__header"></div>
+    <div class="what__st">
+      <div class="what__image"></div>
+      <div class="what__text"></div>
+    </div>
+    <div class="what__st">
+      <div class="what__image"></div>
+      <div class="what__text"></div>
+    </div>
+    <div class="what__st">
+      <div class="what__image"></div>
+      <div class="what__text"></div>
+    </div>
+    <div class="what__st">
+      <div class="what__image"></div>
+      <div class="what__text"></div>
+    </div>
+  </div>
+  <div class="plan">
+    <div class="plan__header-text--small"></div>
+    <div class="plan__header-text--big"></div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__point">
+      <div class="plan__point-header">
+        <div class="plan__point-header-name"></div>
+        <div class="plan__point-header-imge"></div>
+        <div class="plan__point-header-time"></div>
+      </div>
+      <div class="plan__point-open">
+        <div class="pian__point-text--main"></div>
+        <div class="plan__point-text--blue"></div>
+        <div class="pian__point-ul"></div>
+      </div>
+    </div>
+    <div class="plan__button"></div>
+  </div>
+  <div class="final">
+    <div class="final__header">
+      <div class="final__header-text--big"></div>
+      <div class="final__header-text--small"></div>
+    </div>
+    <div class="final__image"></div>
+    <div class="final__text">
+      <div class="final__text--big"></div>
+      <div class="final__text--small"></div>
+    </div>
+  </div>
+  <dib class="variants">
+    <div class="variants__header">
+      <div class="variants__header-text--small"></div>
+      <div class="variants__header-text--big"></div>
+    </div>
+    <div class="variants__npay">
+      <div class="variants__npay-text--blue"></div>
+      <div class="variants__npay-text--big"></div>
+      <div class="variants__npay-text--small"></div>
+      <div class="variants__npay-ul"></div>
+      <div class="variants__npay-button"></div>
+    </div>
+    <div class="variants__pay">
+      <div class="variants__pay-header"></div>
+      <div class="variants__pay-text--blue"></div>
+      <div class="variants__pay-text--big"></div>
+      <div class="variants__pay-text--small"></div>
+      <div class="variants__pay-ul"></div>
+      <div class="variants__pay-button"></div>
+    </div>
+  </dib>
+  <div class="credit">
+    <div class="credit__image"></div>
+    <div class="credit__text--big"></div>
+    <div class="credit__text--dlue"></div>
+    <div class="credit__text--small"></div>
+  </div>
+  <div class="answer">
+    <div class="answer__header">
+      <div class="answer__header-text--blue"></div>
+      <div class="answer__header-text--big"></div>
+    </div>
+    <div class="answer__link">
+      <div class="answer__link-text"></div>
+    </div>
+    <div class="answer__link">
+      <div class="answer__link-text"></div>
+    </div>
+    <div class="answer__link">
+      <div class="answer__link-text"></div>
+    </div>
+    <div class="answer__link">
+      <div class="answer__link-text"></div>
+    </div>
+    <div class="answer__link">
+      <div class="answer__link-text"></div>
+    </div>
+    <div class="answer__link">
+      <div class="answer__link-text"></div>
+    </div>
+    <div class="answer__link">
+      <div class="answer__link-text"></div>
+    </div>
+    <div class="answer__link">
+      <div class="answer__link-text"></div>
+    </div>
+    <div class="answer__link">
+      <div class="answer__link-text"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer__st">
+      <div class="footer__st-image"></div>
+      <div class="footer__st-text--small"></div>
+    </div>
+    <div class="footer__st">
+      <div class="footer__st-text"></div>
+      <div class="footer__st-link"></div>
+    </div>
+    <div class="footer__st">
+      <div class="footer__st-text"></div>
+      <div class="footer__st-link"></div>
+    </div>
+    <div class="footer__st">
+      <div class="footer__st-text"></div>
+      <div class="footer__st-link"></div>
+    </div>
+    <div class="footer__foot">
+      <div class="footer__foot-text"></div>
+      <div class="sub">
+        <div class="sub__button"></div>
+        <div class="sub__button"></div>
+        <div class="sub__button"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

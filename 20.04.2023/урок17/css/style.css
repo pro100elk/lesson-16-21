@@ -1,0 +1,18 @@
+
+div{
+  color: blue !important;
+}
+
+#b{
+  color: aquamarine;
+}
+
+div[class]{
+  color: yellow;
+}
+
+.a{
+  color: brown;
+}
+
+

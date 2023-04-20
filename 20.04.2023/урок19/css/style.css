@@ -1,0 +1,94 @@
+.text{
+  text-indent: 25px;
+  color: grey;
+  tab-size: 20px;
+  line-height: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.enter{
+
+  height: 5px;
+  background-color: #ff0000b2;
+}
+
+.class1__1{
+  color: #4979a3;
+}
+
+.class2__1{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.class3__1{
+  font-size: 8px;
+}
+
+.class4__1{
+  line-height: 25px;
+}
+
+.class5__1{
+  font-style: italic;
+}
+
+.class6__1{
+  font-weight: 900;
+}
+
+.class7__1{
+  text-align: center;
+}
+.class7__2{
+  text-align: justify;
+}
+.class7__3{
+  text-align: right;
+}
+
+.class8__3{
+  text-decoration: dotted underline;
+}
+.class8__2{
+  text-decoration: line-through #7fb10a;
+}
+.class8__1{
+  text-decoration: wavy overline #927d7d ;
+}
+
+.class9__1{
+  text-shadow: 1px 2px 1px #5f12a7;
+}
+
+.class10__1{
+  text-transform: uppercase;
+}
+.class10__2{
+  text-transform: lowercase;
+}
+.class10__3{
+  text-transform: capitalize;
+}
+
+.class11__1{
+  text-indent: 50px;
+}
+
+.class12__1{
+  letter-spacing: 5px;
+}
+
+.class13__1{
+  word-spacing: 5px;
+}
+
+.class14__1{
+  white-space: pre-wrap;
+}
+.class14__2{
+  white-space: nowrap;
+}
+.class14__3{
+  white-space: normal;
+}

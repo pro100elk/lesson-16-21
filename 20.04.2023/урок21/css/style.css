@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "AntipastoPro";
+  font-style: normal;
+  font-weight: 100;
+
+  src: local("AntipastoPro-Thin"),
+  url("../fonts/AntipastoPro-Thin.woff2") format("woff2"),
+  url("../fonts/AntipastoPro-Thin.woff") format("woff"),
+  url("../fonts/AntipastoPro-Thin.eot") format("eot");
+  font-display: swap;
+}
+@font-face {
+  font-family: "AntipastoPro";
+  font-style: normal;
+  font-weight: 800;
+
+  src: local("AntipastoPro-Thin"),
+  url("../fonts/AntipastoPro-ExtraBold.woff2") format("woff2"),
+  url("../fonts/AntipastoPro-ExtraBold.woff") format("woff"),
+  url("../fonts/AntipastoPro-ExtraBold.eot") format("eot");
+  font-display: swap;
+}
+
+.dovlande{
+  font-family: "AntipastoPro", serif;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.link{
+  font-family: 'Montserrat', serif;
+
+}
